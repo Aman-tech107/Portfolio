@@ -59,6 +59,7 @@ html,body {
     display: flex;
 }
 
+
 .first-introduction-para {
     padding: 0%;
 }
@@ -78,16 +79,28 @@ html,body {
     margin-left: 10%;
 }
 
+@media (max-width: 700px){
+    .introduction-paras {
+        display: block;
+    }
+
+    .second-introduction-para {
+        margin-top: 10%;
+        margin-left: 0%;
+    }
+}
 
 
 .second-introduction-para-logos {
-    padding: 10px;
+    padding: 15px;
+    justify-content: center;
 }
 
 .second-introduction-para-content {
-    color: rgb(210, 223, 23);
+    color: rgb(105, 247, 39);
     font-size: 24px;
     margin-top: 10%;
+    font-family: bold;
 }
 
 .skills-out {
@@ -176,17 +189,6 @@ li {
 @keyframes skills-heading {
     from {margin: -10%;}
     to {margin-left: 0%;}
-}
-
-progress[value] {
-    appearance: none;
-    border-radius: 15px;
-}
-progress[value]::-webkit-progress-value {
-    background-image: -webkit-radial-gradient(rgb(46, 238, 206), orange);
-
-    border-radius: 0px 20px 20px 0px;
-    background-size: 35px 20px, 100% 100%, 100% 100%;
 }
 
 i {
@@ -298,3 +300,9 @@ i {
     border-radius: 80px;
 }
 
+
+.projects-section {
+    background-color: #11cf67;
+    text-align: center;
+    font-size: 100px;
+}
