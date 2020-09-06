@@ -42,7 +42,7 @@ html,body {
     align-items: center;
     border-radius: 50%;
     overflow: hidden;
-    margin: -10%;
+    margin-top: -10%;
 }
 
 .introduction-out {
@@ -130,8 +130,7 @@ html,body {
     padding-top: 25px;
     width:100%;
     display: block;
-    animation-name: Languages;
-    animation-duration: 10s;
+    animation: Languages 10s;
     animation-iteration-count: 100;
     animation-direction: alternate;
 }
@@ -174,14 +173,6 @@ li {
     padding: 4%;
 }
 
-@keyframes Languages {
-    0% {color: rgb(212, 154, 154);}
-    25% {color: #32f15c; margin-left: 80%; width: 20%}
-    50% {color: #e23f4c;}
-    75% {color: #d820b9;}
-    100% {color: #e72b2b;}
-}
-
 @keyframes skills-heading {
     from {margin: -10%;}
     to {margin-left: 0%;}
@@ -192,10 +183,7 @@ progress[value] {
     border-radius: 15px;
 }
 progress[value]::-webkit-progress-value {
-    background-image:
-    
-    
-    -webkit-linear-gradient(purple, violet,orange, yellow, #09c, rgb(127, 255, 68));
+    background-image: -webkit-radial-gradient(rgb(46, 238, 206), orange);
 
     border-radius: 0px 20px 20px 0px;
     background-size: 35px 20px, 100% 100%, 100% 100%;
