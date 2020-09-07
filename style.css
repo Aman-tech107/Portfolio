@@ -76,7 +76,20 @@ html,body {
 
 .second-introduction-para {
     padding: 20px;
-    margin-left: 10%;
+    
+}
+
+.second-introduction-para-logos {
+    padding-top: 15px;
+    
+}
+
+.second-introduction-para-content {
+    color: rgb(105, 247, 39);
+    font-size: 24px;
+    margin-top: 0%;
+    font-family: bold;
+    padding-bottom: 30px;
 }
 
 @media (max-width: 700px){
@@ -87,20 +100,12 @@ html,body {
     .second-introduction-para {
         margin-top: 10%;
         margin-left: 0%;
+        padding: 0px;
     }
-}
 
-
-.second-introduction-para-logos {
-    padding: 15px;
-    justify-content: center;
-}
-
-.second-introduction-para-content {
-    color: rgb(105, 247, 39);
-    font-size: 24px;
-    margin-top: 10%;
-    font-family: bold;
+    .second-introduction-para-content {
+        margin-top: 10%;
+    }
 }
 
 .skills-out {
@@ -126,13 +131,13 @@ html,body {
     padding-top: 10px;
     font-size: 30px;
     color: #7b9aee;
-    font-family: 'PT Sans Narrow', sans-serif;;
+    font-family: 'PT Sans Narrow', sans-serif;
 }
 
 .skills-content-languages-items {
     color: rgb(0, 0, 0);
     font-size: 28px;
-    padding: 30px;
+    padding-bottom: 30px;
     font-weight: 100;
     width: 100%;
     font-family: 'Lobster', cursive;;
